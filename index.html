@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ilonka</title>
+
+    <script>
+        document.documentElement.classList.remove('no-js');
+        document.documentElement.classList.add('js');
+    </script>
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+</head>
+
+
+<body id="top">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="line"></div>
+    </div>
+
+
+    <!-- page wrap
+    ================================================== -->
+    <div id="page" class="s-pagewrap">
+
+
+        <!-- # site header 
+        ================================================== -->
+        <header id="masthead" class="s-header">
+
+            <div class="s-header__block">
+                <div class="s-header__branding">
+                    <p class="site-title">
+                        <a href="index.html" rel="home">Ilonka Obilinovic.</a>
+                    </p>
+                </div>
+
+                <a class="s-header__menu-toggle" href="#0"><span>Menu</span></a>
+            </div> <!-- end s-header__block -->
+
+            <div class="row s-header__nav-wrap">
+
+                <nav class="s-header__nav">
+                    <ul>
+                        <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
+                        <li><a href="#about" class="smoothscroll">¡Feliz Cumpleaños!</a></li>
+                        <li><a href="#works" class="smoothscroll">Recuerdos</a></li>
+                        <li><a href="#colophon" class="smoothscroll">Una última cosa...</a></li>
+                    </ul>
+                </nav> <!-- end s-header__nav -->
+
+                <ul class="s-header__social">
+                    <li>
+                        <a href="https://www.facebook.com/ilonkaobilinovicpage">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill:rgba(0, 0, 0, 1);">
+                                <path
+                                    d="M20,3H4C3.447,3,3,3.448,3,4v16c0,0.552,0.447,1,1,1h8.615v-6.96h-2.338v-2.725h2.338v-2c0-2.325,1.42-3.592,3.5-3.592 c0.699-0.002,1.399,0.034,2.095,0.107v2.42h-1.435c-1.128,0-1.348,0.538-1.348,1.325v1.735h2.697l-0.35,2.725h-2.348V21H20 c0.553,0,1-0.448,1-1V4C21,3.448,20.553,3,20,3z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">Facebook</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://x.com/ilonqueen">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill:rgba(0, 0, 0, 1);">
+                                <path
+                                    d="M19.633,7.997c0.013,0.175,0.013,0.349,0.013,0.523c0,5.325-4.053,11.461-11.46,11.461c-2.282,0-4.402-0.661-6.186-1.809 c0.324,0.037,0.636,0.05,0.973,0.05c1.883,0,3.616-0.636,5.001-1.721c-1.771-0.037-3.255-1.197-3.767-2.793 c0.249,0.037,0.499,0.062,0.761,0.062c0.361,0,0.724-0.05,1.061-0.137c-1.847-0.374-3.23-1.995-3.23-3.953v-0.05 c0.537,0.299,1.16,0.486,1.82,0.511C3.534,9.419,2.823,8.184,2.823,6.787c0-0.748,0.199-1.434,0.548-2.032 c1.983,2.443,4.964,4.04,8.306,4.215c-0.062-0.3-0.1-0.611-0.1-0.923c0-2.22,1.796-4.028,4.028-4.028 c1.16,0,2.207,0.486,2.943,1.272c0.91-0.175,1.782-0.512,2.556-0.973c-0.299,0.935-0.936,1.721-1.771,2.22 c0.811-0.088,1.597-0.312,2.319-0.624C21.104,6.712,20.419,7.423,19.633,7.997z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">Twitter</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/ilonqueen/">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(0, 0, 0, 1);">
+                                <path
+                                    d="M7.75 2h8.5A5.75 5.75 0 0 1 22 7.75v8.5A5.75 5.75 0 0 1 16.25 22h-8.5A5.75 5.75 0 0 1 2 16.25v-8.5A5.75 5.75 0 0 1 7.75 2zm0 1.5A4.25 4.25 0 0 0 3.5 7.75v8.5A4.25 4.25 0 0 0 7.75 20.5h8.5a4.25 4.25 0 0 0 4.25-4.25v-8.5A4.25 4.25 0 0 0 16.25 3.5h-8.5zM12 7.25a4.75 4.75 0 1 1 0 9.5 4.75 4.75 0 0 1 0-9.5zm0 1.5a3.25 3.25 0 1 0 0 6.5 3.25 3.25 0 0 0 0-6.5zm4.75-.875a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">Instagram</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/@ilonqueen">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill:rgba(0, 0, 0, 1);">
+                                <path
+                                    d="M23.498 6.186a2.997 2.997 0 0 0-2.108-2.123C19.154 3.5 12 3.5 12 3.5s-7.154 0-9.39.563A2.997 2.997 0 0 0 .5 6.186 29.9 29.9 0 0 0 0 12c0 1.312.09 2.594.5 5.814a2.996 2.996 0 0 0 2.11 2.123c2.236.563 9.39.563 9.39.563s7.154 0 9.39-.563a2.997 2.997 0 0 0 2.108-2.123C23.91 14.594 24 13.312 24 12c0-1.312-.09-2.594-.502-5.814zM9.545 15.818V8.182l6.654 3.818-6.654 3.818z">
+                                </path>
+                            </svg>
+                            <span class="u-screen-reader-text">YouTube</span>
+                        </a>
+                    </li>
+                </ul> <!-- end s-header__social -->
+
+            </div> <!-- end s-header__nav-wrap -->
+
+        </header> <!-- end s-header -->
+
+
+        <!-- intro
+        ================================================== -->
+        <section id="intro" class="s-intro">
+
+            <div class="row">
+                <div class="column lg-12 s-intro__content">
+
+                    <div class="s-intro__text">
+                        <h1 class="s-intro__text-huge animate-on-load">
+                            Ilonqueen
+                        </h1>
+                        <h3 class="animate-on-load">Artista <span>+</span> 🐱🐈🐾</h3>
+                    </div>
+
+                    <div class="s-intro__bg"></div>
+
+                </div>
+            </div>
+
+        </section> <!-- end s-intro -->
+
+
+        <!-- about
+        ================================================== -->
+        <section id="about" class="s-about">
+
+
+            <div class="s-about__block s-about__intro">
+
+                <div class="row">
+                    <div class="column lg-12">
+                        <h2 class="text-pretitle animate-on-load">¡Feliz Cumpleaños!</h2>
+
+                        <p class="attention-getter animate-on-load">
+                            Algunos bosques existen porque una ardilla olvidó dónde enterró una bellota.
+                        </p>
+                        <p>
+                            Es uno de mis datos favoritos.<br>
+                            Pensar que un bosque puede nacer de un gesto que nunca tuvo la intención de cambiar el
+                            mundo.<br>
+                            ...
+                            <br>
+                            Bueno.
+                        </p>
+                        <h3>Feliz cumpleaños, Ilonka.</h3>
+                        <p>
+                            Quería aprovechar este día para decirte algo que probablemente nunca llegues a escuchar lo
+                            suficiente.<br>
+                            <strong>Gracias.</strong><br>
+                            No solo por las canciones, los videos o las horas de trabajo que hay detrás de todo lo que
+                            haces. Gracias por todas esas pequeñas cosas que, sin darte cuenta, terminaron formando
+                            parte de la vida de otras personas.
+                        </p>
+                        <p>
+                            Quizá para ti solo fue un proyecto, un reto que fue creciendo con el paso del tiempo, una
+                            nueva meta que superar.
+                        </p>
+                        <p>
+                            Pero para muchos, y me incluyo, pudo ser la inspiración para dar el primer paso, la canción
+                            que nos permitió disociar en un día difícil o el pequeño respiro que se necesitaba para
+                            seguir adelante.
+                        </p>
+                        <p>
+                            Creo que eso es lo más bonito.<br>
+                            Es que nunca conocerás todas esas historias.<br>
+                            Porque el impacto más grande casi nunca hace ruido.
+                            <br>
+                            Crece en silencio.<br>
+                            Como un árbol.
+                        </p>
+                        <p>
+                            Hoy también quería felicitarte por todo lo que has conseguido. Porque llegar hasta donde
+                            estás no ocurre por suerte; ocurre después de años de esfuerzo, de aprender, de levantarse y
+                            de seguir creando.
+                        </p>
+                        <p>
+                            Ojalá este nuevo año te recuerde algo que a veces es fácil olvidar:
+                        </p>
+                        <h5 class="text-center"><strong><em>Que has sembrado mucho más de lo que imaginas.</em></strong>
+                        </h5>
+                        <p>
+                            Y que, igual que aquella ardilla...<br>
+                            ...probablemente nunca llegues a ver todos los bosques que dejaste crecer.
+                        </p>
+                        <p><em>Feliz cumpleaños... My Queen</em></p>
+                    </div>
+                </div>
+
+            </div> <!-- end s-about__intro -->
+
+        </section> <!-- end s-about -->
+
+
+        <!-- # works
+        ================================================== -->
+        <section id="works" class="s-works">
+
+            <div class="row">
+                <div class="column lg-12">
+
+                    <h2 class="text-pretitle">Recuerdos</h2>
+                    <p class="text-huge-title">
+                        Ahora aparece un resumen de experiencias, eventos y algunos recuerdos que encontré ⇊ ⇊ ⇊
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="row folio-list block-lg-one-half block-stack-on-550" data-animate-block>
+
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-kinfolk.jpg"
+                                title="@MyDearGee" data-size="1050x700">
+                                <img src="images/portfolio/skaterboy.jpg"
+                                    srcset="images/portfolio/kinfolk.jpg 1x, images/portfolio/kinfolk@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">YouTube</span>
+                                <a href="https://www.youtube.com/@MyDearGee" title="@MyDearGee"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title">@MyDearGee (17 nov 2011)</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>Cuenta de respaldo de MidnightSingers, definitivamente el copyright me detesta y no
+                                quiero perderla.
+                                Aunque posiblemente esta no me dure demasiado porque no borraré videos denunciados por
+                                las empresas, así que a ver cuando dura xD</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-grayscale.jpg"
+                                title="Cover Más Antiguo" data-size="1050x700">
+                                <img src="images/portfolio/minimalismo.jpg"
+                                    srcset="images/portfolio/grayscale.jpg 1x, images/portfolio/grayscale@2x.jpg 2x"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Cover</span>
+                                <a href="https://www.youtube.com/watch?v=RWCQ5rPehdQ" title="YouTube"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title">『DearGee』Lonely【Spanish Cover】<br>
+                                (26 dic 2011)</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>Fue una de las canciones más votadas en la pag de facebook y ya hace mucho tiempo que la
+                                quiero hacer :3
+                                Espero que disfruten escuchándola cómo yo haciéndola. Un beso!</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-lamp.jpg"
+                                title="Concurso" data-size="1050x700">
+                                <img src="images/portfolio/lamp.jpg"
+                                    srcset="images/portfolio/lamp.jpg 1x, images/portfolio/lamp@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Concurso</span>
+                                <a href="https://www.youtube.com/watch?v=fm1CsnXuMtc" title="YouTube"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title">Good Day (2012)</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>IU (아이유) _ Good Day (좋은 날) para K pop World Festival 2012 Korea</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-tulips.jpg" title="Korea"
+                                data-size="1050x700">
+                                <img src="images/portfolio/tulips.jpg"
+                                    srcset="images/portfolio/tulips.jpg 1x, images/portfolio/tulips@2x.jpg 2x" alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Web Design</span>
+                                <a href="https://www.youtube.com/watch?v=axF3OS-0A74" title="YouTube"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title">
+                                K pop World Festival 2012 Korea<br>
+                                (1 nov 2012)
+                            </h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>창원 케이팝 페스티벌 Ilonka﻿ from Chile - 좋은날(Good Day) Cover.</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-tropical.jpg"
+                                title="Tropical" data-size="1050x700">
+                                <img src="images/portfolio/rucksack.jpg"
+                                    srcset="images/portfolio/tropical.jpg 1x, images/portfolio/tropical@2x.jpg 2x"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">YouTube</span>
+                                <a href="https://www.youtube.com/@ilonqueen" title="YouTube"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title">ilonqueen (12 ago 2014)</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>El canal donde te conocimos.</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+                <div class="column" data-animate-el>
+                    <div class="folio-item">
+                        <div class="folio-item__thumb">
+                            <a class="folio-item__thumb-link" href="images/portfolio/gallery/g-woodcraft.jpg"
+                                title="Woodcraft" data-size="1050x700">
+                                <img src="images/portfolio/woodcraft.jpg"
+                                    srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x"
+                                    alt="">
+                            </a>
+                        </div>
+                        <div class="folio-item__info">
+                            <div class="folio-item__meta">
+                                <span class="cat">Cover</span>
+                                <a href="https://www.youtube.com/watch?v=FaVb-N7KfEo" title="YouTube"
+                                    class="project-link">enlace</a>
+                            </div>
+                            <h4 class="folio-item__title"> UNRAVEL ♥ TOKYO GHOUL (Spanish cover) (24 abr 2015)</h4>
+                        </div>
+                        <div class="folio-item__caption">
+                            <p>El cover donde te conocimos muchos 💖</p>
+                        </div>
+                    </div>
+                </div> <!-- end column -->
+
+            </div> <!-- folio-list -->
+
+            <div class="row testimonials">
+                <div class="column lg-12">
+
+                    <div class="swiper testimonial-slider">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="testimonial-slider__slide swiper-slide">
+                                <p>
+                                    A veces, los regalos más valiosos no se envuelven; simplemente llegan a nuestra vida
+                                    y la transforman. Gracias por compartir tu talento, tu esfuerzo y tu forma de ver el
+                                    mundo. Ojalá este nuevo año te devuelva, multiplicada, toda la alegría, inspiración
+                                    y esperanza que has sembrado en tantas personas. Feliz cumpleaños.
+                                </p>
+                                <div class="testimonial-slider__author">
+                                    <img src="images/avatars/user-02.jpg" alt="Author image"
+                                        class="testimonial-slider__avatar">
+                                    <cite class="testimonial-slider__cite">
+                                        <strong>John Rockefeller</strong>
+                                        <span>Standard Oil Co.</span>
+                                    </cite>
+                                </div>
+                            </div> <!-- end testimonial-slider__slide -->
+
+                            <div class="testimonial-slider__slide swiper-slide">
+                                <p>
+                                    Dicen que el tiempo cambia a las personas, pero también revela quiénes nunca dejaron
+                                    de ser auténticos. Gracias por seguir creando, aprendiendo y compartiendo una parte
+                                    de ti con el mundo. Que este cumpleaños marque el inicio de un año lleno de
+                                    tranquilidad, nuevos sueños y momentos que te hagan tan feliz como tú has hecho a
+                                    muchas personas.
+                                </p>
+                                <div class="testimonial-slider__author">
+                                    <img src="images/avatars/user-03.jpg" alt="Author image"
+                                        class="testimonial-slider__avatar">
+                                    <cite class="testimonial-slider__cite">
+                                        <strong>Andrew Carnegie</strong>
+                                        <span>Carnegie Steel Co.</span>
+                                    </cite>
+                                </div>
+                            </div> <!-- end testimonial-slider__slide -->
+
+                            <div class="testimonial-slider__slide swiper-slide">
+                                <p>
+                                    Cada paso que has dado te ha traído hasta aquí, y eso merece celebrarse. No solo por
+                                    todo lo que has logrado, sino por la persona en la que te has convertido durante el
+                                    camino. Espero que nunca te falten motivos para sonreír, personas con quienes
+                                    compartirlos y sueños que sigan despertando esa chispa que te hace seguir adelante.
+                                </p>
+                                <div class="testimonial-slider__author">
+                                    <img src="images/avatars/user-01.jpg" alt="Author image"
+                                        class="testimonial-slider__avatar">
+                                    <cite class="testimonial-slider__cite">
+                                        <strong>John Morgan</strong>
+                                        <span>JP Morgan & Co.</span>
+                                    </cite>
+                                </div>
+                            </div> <!-- end testimonial-slider__slide -->
+
+                            <div class="testimonial-slider__slide swiper-slide">
+                                <p>
+                                    Hay personas que dejan recuerdos, y otras que dejan huellas. Sin buscarlo, has
+                                    logrado ambas cosas. Gracias por inspirar, acompañar y demostrar que la pasión por
+                                    lo que uno ama puede llegar mucho más lejos de lo que imagina. Que este nuevo año
+                                    esté lleno de paz, risas sinceras y nuevas historias por crear.
+                                </p>
+                                <div class="testimonial-slider__author">
+                                    <img src="images/avatars/user-05.jpg" alt="Author image"
+                                        class="testimonial-slider__avatar">
+                                    <cite class="testimonial-slider__cite">
+                                        <strong>Henry Ford</strong>
+                                        <span>Ford Motor Co.</span>
+                                    </cite>
+                                </div>
+                            </div> <!-- end testimonial-slider__slide -->
+
+                        </div> <!-- end swiper-wrapper -->
+
+                        <div class="testimonial-slider__next">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(0, 0, 0, 1);">
+                                <path
+                                    d="m11.293 17.293 1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z">
+                                </path>
+                            </svg>
+                        </div>
+                        <div class="testimonial-slider__prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                style="fill: rgba(0, 0, 0, 1);">
+                                <path
+                                    d="M12.707 17.293 8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z">
+                                </path>
+                            </svg>
+                        </div>
+
+                        <div class="swiper-pagination"></div>
+
+                    </div> <!-- end testimonial-slider -->
+
+                </div> <!-- end column -->
+            </div> <!-- end row testimonials -->
+
+        </section> <!-- end s-works -->
+
+
+        <!-- # site footer
+        ================================================== -->
+        <footer id="colophon" class="s-footer">
+
+            <div class="row s-footer__contact-header">
+                <div class="column lg-12">
+                    <h2 class="text-pretitle">Una última cosa...</h2>
+
+                    <p class="text-huge-title">
+                        El regalo está por terminar</p>
+                </div>
+            </div> <!-- end s-footer__content -->
+
+            <div class="row s-footer__contact-content">
+
+                <div class="column lg-5 md-6 stack-on-900 left-block">
+                    <p>
+                        Espero que este pequeño rincón de internet haya conseguido devolverte, aunque sea por unos
+                        minutos, una parte de toda la alegría que has regalado durante estos años.
+
+                        Gracias por seguir creando.
+
+                        Gracias por seguir intentándolo.
+
+                        Y gracias por todas las semillas que dejaste en personas que probablemente nunca llegarás a
+                        conocer.<br>
+
+                        Feliz cumpleaños.
+                    </p>
+
+                    <div class="s-footer__buttons">
+                        <a href="https://discord.gg/dZhxJ9JcUB" class="btn btn--primary u-fullwidth" target="_blank">Hola Mundo</a>
+                        <a href="https://www.youtube.com/watch?v=4yXkJqGC0UQ" class="btn btn--stroke u-fullwidth" target="_blank">El último regalo</a>
+                    </div>
+                </div>
+
+                <div class="column lg-4 md-5 stack-on-900 right-block">
+
+                    <div class="s-footer__social">
+                        <h2 class="text-subtitle">
+                            Connect
+                        </h2>
+                        <ul class="link-list">
+                            <li><a href="https://www.youtube.com/@Aquel_aprendiz" target="_blank">Youtube</a></li>
+                            <li><a href="https://x.com/algun_aprendiz" target="_blank">Twitter</a></li>
+                            <li><a href="https://www.instagram.com/ese_aprendiz/" target="_blank">Instagram</a></li>
+                            <li><a href="https://www.tiktok.com/@este_aprendiz" target="_blank">TikTok</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div> <!-- end s-footer__contact-content -->
+
+            <div class="row s-footer__bottom">
+                <div class="column ss-copyright">
+                    <span>© Copyright Aprendiz 2026</span>
+                    <span>Design by <a href="https://discord.gg/dZhxJ9JcUB" target="_blank">Aprendiz</a></span>
+                </div>
+
+                <div class="ss-go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            style="fill: rgba(0, 0, 0, 1);">
+                            <path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"></path>
+                        </svg>
+                    </a>
+                </div>
+            </div> <!-- end s-footer__bottom-->
+
+        </footer> <!-- end s-footer -->
+
+    </div> <!-- end s-pagewrap -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close"
+                        title="Close (Esc)"></button> <button class="pswp__button pswp__button--share"
+                        title="Share"></button> <button class="pswp__button pswp__button--fs"
+                        title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom"
+                        title="Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
